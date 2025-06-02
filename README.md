@@ -3,12 +3,21 @@
 This project allows you to control your mouse cursor, click, scroll, and trigger actions using your eyes, face, and hand gestures via your webcam. It uses Python, OpenCV, MediaPipe, and PyAutoGUI.
 
 ## Features
-- **Move Mouse with Eyes:** Cursor follows your gaze.
-- **Blink to Click:** Blink to perform a mouse click.
-- **Hand Gestures for Scrolling:** Use your index finger position relative to your wrist to scroll vertically and horizontally.
-- **Smile to Open YouTube:** Smile to automatically open YouTube in your browser.
-- **Quit Anytime:** Press `q` to exit the application.
+- Eye-tracking for cursor movement
 
+Blink-to-click with proper cooldown
+
+Mouth open to launch YouTube
+
+All fingers folded to trigger ChatGPT
+
+Hand-based scrolling and arrow navigation
+
+Volume control using finger positions
+
+Smart tab management & manual resets
+
+PyAutoGUI fail-safe handling for seamless control
 ## Installation
 
 1. **Clone the repository:**
@@ -65,6 +74,8 @@ This project allows you to control your mouse cursor, click, scroll, and trigger
 - opencv-python
 - mediapipe
 - pyautogui
+- webbrowser
+-  psutil
 
 Install all with:
 ```powershell
