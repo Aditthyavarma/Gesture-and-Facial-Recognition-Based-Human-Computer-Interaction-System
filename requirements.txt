@@ -1,3 +1,7 @@
 opencv-python
 mediapipe
 pyautogui
+webbrowser
+numpy
+psutil
+pycaw
